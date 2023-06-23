@@ -28,7 +28,7 @@ public class AdminController {
     }
 
     @GetMapping("/new")
-    public String createNewPerson(@ModelAttribute("person") User user) {
+    public String addUser(@ModelAttribute("person") User user) {
         return "new";
     }
 
